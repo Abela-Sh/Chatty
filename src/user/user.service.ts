@@ -10,4 +10,8 @@ export class UserService {
         }
         return user
     }
+
+    login(){
+        return 'Logged In.'
+    }
 }
